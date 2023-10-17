@@ -1,9 +1,9 @@
-
+import { SetCountExample } from "./SetCountExample.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Hooks</h1>
+      <SetCountExample />
     </div>
   );
 }
