@@ -22,9 +22,19 @@ export const SetCountExample = () => {
         })
     }
 
+    const messageFunction = () => {
+        setCount((name) => {
+            name = window.prompt("Enter your name:");
+            return window.alert("Hello, " + name + " This is message!");
+        })
+    }
+
     return <div>
         <button onClick={decrementFunction}>Decrement</button>
         <span>{count}</span>
         <button onClick={incrementFunction}>Increment</button>
+        <div>
+            <button onClick={messageFunction}>pop up!</button>
+        </div>
     </div>;
 }

@@ -1,11 +1,9 @@
-import { SetCountExample } from "./SetCountExample.js";
+import { UseStateExampleAdvanced } from "./UseStateExampleAdvanced";
 
-function App() {
-  return (
-    <div className="App">
-      <SetCountExample />
-    </div>
-  );
+const App = () => {
+  return <div>
+    <UseStateExampleAdvanced />
+  </div>;
 }
 
 export default App;
