@@ -1,7 +1,7 @@
 import {useState} from "react";
 import { photosData } from "../data/photosData";
 
-export const UseStatePractic2 = () => {
+export const UseStatePractice2 = () => {
     const [PhotosData, setPhotosData] = useState(photosData);
 
     const deleteDataFunc = (givenId) => {

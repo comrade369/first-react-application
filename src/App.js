@@ -1,9 +1,9 @@
-import { UseStatePractic2 } from "./practice/UseStatePractic2";
+import { ConditionalRenderingUseState } from "./ConditionalRenderingUseState";
 
 const App = () => {
-  return <main>
-    <UseStatePractic2 />
-  </main>;
+    return <main>
+        <ConditionalRenderingUseState />
+    </main>;
 }
 
 export default App;
