@@ -1,9 +1,9 @@
-import { UseStateExampleAdvanced } from "./UseStateExampleAdvanced";
+import { UseStatePractic2 } from "./practice/UseStatePractic2";
 
 const App = () => {
-  return <div>
-    <UseStateExampleAdvanced />
-  </div>;
+  return <main>
+    <UseStatePractic2 />
+  </main>;
 }
 
 export default App;
